@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5cdb95;
+  font-family: sans-serif;
+}
+
+header {
+  margin: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.options {
+  /* padding-top: 10px; */
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.options a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.options:last-child {
+  padding-right: 100px;
+}
+.nav-btn {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #05386b;
+}
+
+a.logo {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #05386b;
+  text-transform: uppercase;
+}
+
+.hero {
+  margin: 25px 50px;
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  height: 100vh;
+}
+.heading-primary {
+  font-size: 45px;
+  color: #05386b;
+  line-height: 1.3;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.top-left-pic,
+.middle-right-pic,
+.bottom-left-pic {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+.top-left-pic {
+  top: 50px;
+  left: 250px;
+}
+.middle-right-pic {
+  top: 270px;
+  left: 50px;
+}
+.about-me {
+  margin-left: 50px;
+  margin: 30px 50px 200px;
+  color: #05386b;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 200px;
+}
+.lil-header {
+  font-size: 20px;
+}
+.theme {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  margin-left: 120px;
+  font-size: 40px;
+}
+.desc {
+  width: 600px;
+  line-height: 1.5;
+  font-size: 20px;
+  margin-left: 100px;
+  text-align: center;
+}
+.about-me-pic {
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.knowledge {
+  color: #05386b;
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+.lil-header-kn {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.second-kn {
+  display: flex;
+  justify-content: center;
+}
+.third-kn {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  color: #05386b;
+  margin: 50px 50px;
+}
+.lil-header-cn {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+.leave-info {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+input {
+  font-size: 25px;
+}
